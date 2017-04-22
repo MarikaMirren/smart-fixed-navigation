@@ -1,0 +1,84 @@
+/* Image hover state */
+
+#cd-gallery-items li {
+    background: #e84a64;
+}
+#cd-gallery-items li img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#cd-gallery-items li:hover img {
+    opacity: .5;
+}
+
+/* arrows */
+.prenext {
+    margin: 25px auto;
+    font-size: 15px;
+}
+.prenext a: hover {
+    border-bottom: none;
+    text-decoration: none;
+}
+.left {
+    right: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.right {
+    left: 30%;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.scrolltop {
+    display: none;
+    margin-bottom: 15px;
+}
+.scrolltop:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+/* project images */
+
+/*.project-images img{
+    padding: auto 0;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}*/
+.project-images img{
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top:10px;
+    
+}
+
+.project-images img:first-child {
+    padding: 0;
+}
+
+.description {
+    margin: 40px auto;
+    max-width: 860px;
+    width: 100%;
+    text-align: left;
+    
+}
+
+
+
+.project-text{
+    font-size: 12pt;
+    line-height: 24pt;
+    padding-bottom: 20px;
+}
